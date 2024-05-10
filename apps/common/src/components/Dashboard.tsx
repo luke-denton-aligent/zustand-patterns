@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/Button';
+import { Button } from './ui/Button';
 import {
   DropdownMenuTrigger,
   DropdownMenuLabel,
@@ -6,10 +6,10 @@ import {
   DropdownMenuItem,
   DropdownMenuContent,
   DropdownMenu
-} from '@/components/ui/DropdownMenu';
-import { CardTitle, CardHeader, CardContent, Card } from '@/components/ui/Card';
-import MinusIcon from '@/components/icons/MinusIcon.tsx';
-import PlusIcon from '@/components/icons/PlusIcon.tsx';
+} from './ui/DropdownMenu';
+import { CardTitle, CardHeader, CardContent, Card } from './ui/Card';
+import MinusIcon from './icons/MinusIcon.tsx';
+import PlusIcon from './icons/PlusIcon.tsx';
 
 const Dashboard = () => {
   return (
